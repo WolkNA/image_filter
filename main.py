@@ -59,7 +59,7 @@ if uproar <0: uproar = 0
 #elif uproar > 100: uproar = 100
 
 
-img_uproar('./Dune.bmp', uproar)
+img_uproar(fname, uproar)
 
 filter('./uproar.bmp', 0)
 filter('./median.bmp', 1)
